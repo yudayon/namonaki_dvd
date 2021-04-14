@@ -1,0 +1,576 @@
+@charset "utf-8";
+/************************************************
+
+@style.css
+
+©︎ULM Co.,Ltd. - https://www.ulm-design.com
+************************************************/
+
+
+
+/************************************************
+sp
+************************************************/
+
+ #wrapper {
+		text-align: center;
+	}
+
+	section {
+		padding-bottom: 20px;
+	}
+
+/*
+  #top
+		-------------------------------*/
+	#top {
+		padding: 0;
+		}
+
+	.main-img {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.main-read {
+		width: 100%;
+		margin: -1px auto;
+	}
+	 
+	
+	.arrow {
+		width: 20px;
+		display: inline-block;
+		position: absolute;
+		margin-left: 10px;
+	} 
+	/*
+  #special
+  -------------------------------*/
+
+	.package-ttl {
+		margin: -1px auto;
+		padding: 20px 0;
+		font-size: 20px;
+		background: #920783; 
+		color: #fff;
+	}
+
+	.ttl-min {
+		font-size: 17px;
+	}
+
+	.jacket-img0, .jacket-img1{
+		width: 50%;
+		margin: 20px auto;
+	}
+
+.drama-detail {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.drama-img0 {
+	width: 50%;
+	margin: 20px auto;
+}
+
+.drama-contents {
+	text-align: left;
+	line-height: 2;
+	font-size: 14px;
+}
+
+.product-detail {
+		width: 90%; 
+		margin: 0 auto; 
+		text-align: left; 
+	}
+
+.product-ttl {
+		color: #920783;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 1.4;
+		margin-bottom: 20px;
+	}
+ 
+
+.contents {
+	font-size: 14px;
+	line-height: 2;
+}
+
+.contents-ttl {
+		color: #4484bd;
+		font-size: 13px;
+		font-weight: 500;
+		line-height: 2;
+	}
+
+	#special .product-detail p:nth-child(4) {
+ 	margin: 20px 0 0;
+	}
+
+	#special .product-detail p:nth-child(6) {
+		padding: 20px 0;
+	}
+ 
+
+#special-detail {
+	margin-top: 30px;
+}
+
+
+#tokuteneizoAll{
+width: 350px;
+margin: 0 auto 30px; 
+}
+
+#tokuteneizoblock{
+width: 340px;
+margin: 3px;
+border: 2px solid #920783;
+position: relative;
+display: table;
+}
+
+.tokuteneizotxtblock{
+width: 95%;
+padding: 0 0 15px;
+margin: 0 auto;
+}
+
+#tokuteneizoM{
+background-color: #920783;
+width: 100%;
+}
+
+#tokuteneizoMtxt{
+width: 100%;
+font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+font-size: 20px;
+color: #fff;
+font-weight: 600;
+text-align: center;
+line-height: 2em;
+}
+
+
+#tokuteneizoTxtAll{
+width: 98%;
+padding: 10px 0;
+margin: 0 auto;
+}
+
+#tokuteneizoTxt{
+width: 100%;
+font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+font-weight: 600;
+font-size: 13px;
+line-height: 1.7em;
+text-align: left;
+padding: 10px;
+}
+
+.tokutenColor{ color: #920783; margin-left: -7px; font-size: 120%;}
+
+.tokuteneizoTxtS{
+width: 95%;
+margin: 0 auto;
+font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+font-weight: 500;
+font-size: 12px;
+line-height: 1.5em;
+padding: 0 0 10px;
+}
+
+.tokuteneizoTxtS2{
+font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+font-weight: 500;
+font-size: 12px;
+line-height: 1.5em;
+letter-spacing: -0.5px;
+margin-left: -5px;
+}
+
+
+/*
+
+tokuten
+
+*/
+  
+
+
+#tokuten { 
+	background: url("../img/bg_tokuten.jpg") no-repeat 100% 0;
+	background-size: cover;
+	}	
+
+#tokuten h3 {
+	color: #fff;
+	font-size: 30px;
+	padding: 60px;
+	
+}
+	
+.caution {
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.5;
+	text-align: left; 
+	padding-top: 10px;
+	width: 90%;
+	margin: 0 auto;
+}
+	
+.tokuten-bnr { 
+	width: 160px;
+	margin: 8px;
+	}
+	
+ 
+.bnr-container {
+		width: 95%; 
+		margin: 30px auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+.bnr {
+		width: 47%;
+		margin: 5px;
+		border: 1px solid #ccc;
+	}
+	 	
+.rental {
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.footer {
+	margin: 5%;
+	font-size: 11px;
+	line-height: 1.5;
+}
+
+/*
+  #reserve
+		-------------------------------*/
+	.bg1 {
+		background: url(../img/sp_bg_4.jpg) no-repeat 100% 0;
+		background-size: cover;
+	}
+
+	#reserve h3 , #webcast h3 {
+		padding: 15px 0;
+		background: url(../img/sp_btn_bg.jpg) no-repeat 100% 0;
+		background-size: cover;
+		font-size: 16px;
+		color: #fff;
+	}
+
+/*
+	#footer
+	-------------------------------*/
+
+
+	@media print {
+		*,img {
+			background: #fff;
+			display: none;
+			opacity: 0;
+		}
+	}
+
+@media all and (min-width: 813px) {
+	
+	
+
+	/*
+			#top
+			-------------------------------*/
+		.buy-btn a {
+			font-size: 24px;
+		}
+
+	.arrow {
+		width: 26px;
+	}
+
+	.buy-btn {
+		padding: 12px 0;
+		background: url(../img/pc_btn_bg.jpg) no-repeat 100% 0;
+		background-size: cover;
+	}
+ 
+	/*
+		#special
+	-------------------------------*/	
+	
+	#special-detail {
+		margin-top: 5%;
+	}
+ 
+
+
+	.package-ttl {
+		font-size: 27px;
+	}
+
+	.ttl-min {
+		font-size: 22px;
+	}
+	
+	.jacket-img0 {
+		width: 48%;
+		max-width: 700px;
+		margin: 50px auto;
+	}
+
+	.jacket-img1 {
+		width: 60%;
+		max-width: 250px;
+		margin: 50px auto;
+	}
+	
+	.drama-img0 {
+		width: 18%;
+	}
+
+	.product-container {
+		display: flex;
+		justify-content: space-between;
+		width: 80%;
+		max-width: 1280px;
+		margin: 0 auto;
+	}
+
+	.product-detail {
+		max-width: 496px;
+		width: 45%;
+		padding: 20px 25px 0;
+	}
+
+	#special .product-detail p:nth-child(5) {
+		position: relative;
+		margin-left: 48px;
+		top: -22px
+	}
+
+	#special .product-detail p:nth-child(6) {
+		padding: 0 0 20px;
+	}
+
+	.product-ttl {
+		font-size: 26px;
+	}
+
+	.price {
+		font-size: 26px;
+	}
+
+	.number {
+		font-size: 16px;
+	}
+
+	.contents {
+		font-size: 15px;
+		min-height: fit-content;
+	}
+
+	.drama-detail {
+		max-width: 1200px;
+		width: 85%;
+		padding: 20px 25px 0;
+		line-height: 2;
+		margin: 0 auto;
+	}
+	
+	.drama-contents {
+		font-size: 15px;
+		text-align: left;
+		margin-left: 30%;
+		padding-bottom: 30px;
+		
+	}
+
+	.contents-ttl {
+		font-size: 21px;
+	}
+
+	#special-detail h3 {
+		padding: 25px;
+		font-size: 27px;
+		text-align: center;
+	}
+
+	.special-read {
+		width: 70%;
+		max-width: 1200px;
+		font-size: 16px;
+		margin: 30px auto;
+	}
+
+	.detail-ttl {
+		font-size: 26px;
+	}
+
+	#special-detail .product-detail {
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-end;
+		width: 70%;
+		max-width: 1280px;
+		padding: 30px 20px;
+	}
+
+	.detail-flex {
+		width: 400px;
+		padding: 0 20px;
+	}
+
+	
+	
+	
+
+#tokuteneizoAll{
+width: 1120px;
+margin: 0 auto 60px; 
+}
+
+#tokuteneizoblock{
+width: 1110px; height: 500px;
+margin: 0 auto;
+border: 2px solid #920783;
+position: relative;
+display: table;
+}
+
+.tokuteneizotxtblock{
+width: 100%;
+padding: 0 0 15px;
+}
+
+#tokuteneizoM{
+background-color: #920783;
+width: 240px;height: 496px;
+position: absolute;
+top: 0; left: 0;
+z-index: 1;
+}
+
+#tokuteneizoMtxt{
+width: 240px;
+position: absolute;
+top: 50%; left: 50%;
+transform: translateY(-50%) translateX(-50%);
+z-index: 2;
+font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+font-size: 31px;
+color: #fff;
+font-weight: 600;
+text-align: center;
+line-height: 1.2em;
+}
+
+
+#tokuteneizoTxtAll{
+width: 870px; height: 670px;
+position: absolute;
+top: 0; left: 240px;
+z-index: 2;
+}
+
+#tokuteneizoTxt{
+width: 800px;
+position: absolute;
+top: 37%; left: 50%;
+transform: translateY(-50%) translateX(-50%);
+z-index: 2;
+font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+font-weight: 600;
+font-size: 19px;
+line-height: 1.7em;
+text-align: left;
+}
+
+.tokutenColor{ color: #920783; margin-left: -10px;}
+
+.tokuteneizoTxtS{
+width: 95%;
+margin: 0 auto;
+font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5em;
+padding: 0 0 10px;
+}
+
+.tokuteneizoTxtS2{
+font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5em;
+}
+
+
+
+#tokuten { 
+	background: url("../img/bg_tokuten.jpg") no-repeat 100% 0;
+	background-size: cover;
+	}	
+
+#tokuten h3 {
+	color: #fff;
+	font-size: 30px;
+	padding: 60px;
+	
+}
+	
+.caution {
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.5;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-bottom: 30px;
+}
+	
+	
+.tokuten-bnr { 
+	width: 250px;
+	margin: 10px;
+	}
+ 
+
+ 
+.bnr-container {
+		width: 80%;
+		max-width: 1280px;
+		margin: 70px auto 10px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.bnr {
+		width: 20%;
+		margin: 0px 20px 20px 0;
+		border: 1px solid #ccc;
+	}
+
+	.rental {
+		color: #000;
+	}
+
+.footer{
+	margin: 20px;
+	font-size: 12px;
+	line-height: 1.4;
+}
+
+} 
