@@ -20,6 +20,8 @@ sp
 		padding-bottom: 20px;
 	}
 
+ 
+
 /*
   #top
 		-------------------------------*/
@@ -44,9 +46,56 @@ sp
 		position: absolute;
 		margin-left: 10px;
 	} 
+
+#title { 
+	font-size: 36px;
+	font-weight: 900; 
+	color: #920783;
+	background:linear-gradient(transparent 88%, #ffff66 0%);
+	width: 253px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	padding-top: 5%;
+	margin-top: 20px;
+}
+
+
+
 	/*
   #special
   -------------------------------*/
+
+#special {
+	background-color: #fff;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#luxury {
+	background-color: #fff;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#haishin{
+	background-color: #fff;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#rental {
+	background-color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#normal {
+	background-color: #fff;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
 
 	.package-ttl {
 		margin: -1px auto;
@@ -60,26 +109,16 @@ sp
 		font-size: 17px;
 	}
 
-	.jacket-img0, .jacket-img1{
-		width: 50%;
+	.jacket-img0 {
+		width: 45%;
 		margin: 20px auto;
 	}
 
-.drama-detail {
-	width: 90%;
-	margin: 0 auto;
-}
-
-.drama-img0 {
-	width: 50%;
-	margin: 20px auto;
-}
-
-.drama-contents {
-	text-align: left;
-	line-height: 2;
-	font-size: 14px;
-}
+	.jacket-img1 {
+		width: 45%;
+		margin: 20px auto;
+	}
+ 
 
 .product-detail {
 		width: 90%; 
@@ -89,10 +128,11 @@ sp
 
 .product-ttl {
 		color: #920783;
-		font-size: 18px;
+		font-size: 24px;
 		font-weight: 600;
 		line-height: 1.4;
-		margin-bottom: 20px;
+		margin-top: 30px;
+		margin-bottom: 10px;
 	}
  
 
@@ -149,7 +189,7 @@ width: 100%;
 #tokuteneizoMtxt{
 width: 100%;
 font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
-font-size: 20px;
+font-size: 18px;
 color: #fff;
 font-weight: 600;
 text-align: center;
@@ -244,16 +284,34 @@ tokuten
 		margin: 5px;
 		border: 1px solid #ccc;
 	}
-	 	
+
+.haishin {
+		font-size: 24px;
+		font-weight: bold;
+		line-height: 1.5;
+	}	
+
+.haishin-txt {
+	font-size: 55px;
+}
+
+
 .rental {
-	font-size: 12px;
+	font-size: 24px;
+	font-weight: bold;
 	line-height: 1.5;
+}
+
+.rental-txt {
+	font-size: 12px;
+	padding-top: 10px;
 }
 
 .footer {
 	margin: 5%;
 	font-size: 11px;
 	line-height: 1.5;
+	color: #920783;
 }
 
 /*
@@ -305,10 +363,47 @@ tokuten
 		background: url(../img/pc_btn_bg.jpg) no-repeat 100% 0;
 		background-size: cover;
 	}
+	
+ 
+	
+#special {
+	background-color: #fff;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#luxury {
+	background-color: #fff;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#normal {
+	background-color: #fff;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+#haishin {
+	background-color: #fff;
+	width: 60%;
+	margin: 0 auto;
+	padding: 30px;
+}	
+
+
+#rental {
+	background-color: #fff;
+	width: 60%;
+	margin: 0 auto;
+	padding: 40px;
+}	
  
 	/*
 		#special
 	-------------------------------*/	
+ 
 	
 	#special-detail {
 		margin-top: 5%;
@@ -318,6 +413,7 @@ tokuten
 
 	.package-ttl {
 		font-size: 27px;
+		font-family: "ＭＳ Ｐ明朝", "MS PMincho","ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "serif";
 	}
 
 	.ttl-min {
@@ -325,34 +421,35 @@ tokuten
 	}
 	
 	.jacket-img0 {
-		width: 48%;
+		width: 20%;
 		max-width: 700px;
 		margin: 50px auto;
 	}
 
 	.jacket-img1 {
-		width: 60%;
+		width: 50%;
 		max-width: 250px;
 		margin: 50px auto;
 	}
 	
-	.drama-img0 {
-		width: 18%;
-	}
+ 
 
 	.product-container {
 		display: flex;
 		justify-content: space-between;
-		width: 80%;
+		width: 88%;
 		max-width: 1280px;
 		margin: 0 auto;
 	}
 
 	.product-detail {
 		max-width: 496px;
-		width: 45%;
-		padding: 20px 25px 0;
+		width: 47%;
+		padding: 10px 25px 0;
 	}
+	
+	
+
 
 	#special .product-detail p:nth-child(5) {
 		position: relative;
@@ -365,7 +462,7 @@ tokuten
 	}
 
 	.product-ttl {
-		font-size: 26px;
+		font-size: 24px;
 	}
 
 	.price {
@@ -380,22 +477,7 @@ tokuten
 		font-size: 15px;
 		min-height: fit-content;
 	}
-
-	.drama-detail {
-		max-width: 1200px;
-		width: 85%;
-		padding: 20px 25px 0;
-		line-height: 2;
-		margin: 0 auto;
-	}
-	
-	.drama-contents {
-		font-size: 15px;
-		text-align: left;
-		margin-left: 30%;
-		padding-bottom: 30px;
-		
-	}
+ 
 
 	.contents-ttl {
 		font-size: 21px;
@@ -437,12 +519,12 @@ tokuten
 	
 
 #tokuteneizoAll{
-width: 1120px;
+width: 100%;
 margin: 0 auto 60px; 
 }
 
 #tokuteneizoblock{
-width: 1110px; height: 500px;
+width: 90%; height: 452px;
 margin: 0 auto;
 border: 2px solid #920783;
 position: relative;
@@ -456,7 +538,7 @@ padding: 0 0 15px;
 
 #tokuteneizoM{
 background-color: #920783;
-width: 240px;height: 496px;
+width: 180px;height: 450px;
 position: absolute;
 top: 0; left: 0;
 z-index: 1;
@@ -469,7 +551,7 @@ top: 50%; left: 50%;
 transform: translateY(-50%) translateX(-50%);
 z-index: 2;
 font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
-font-size: 31px;
+font-size: 24px;
 color: #fff;
 font-weight: 600;
 text-align: center;
@@ -478,22 +560,22 @@ line-height: 1.2em;
 
 
 #tokuteneizoTxtAll{
-width: 870px; height: 670px;
+width: 810px; height: 709px;
 position: absolute;
 top: 0; left: 240px;
 z-index: 2;
 }
 
 #tokuteneizoTxt{
-width: 800px;
+width: 88%;
 position: absolute;
-top: 37%; left: 50%;
+top: 33%; left: 39%;
 transform: translateY(-50%) translateX(-50%);
 z-index: 2;
 font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
 font-weight: 600;
-font-size: 19px;
-line-height: 1.7em;
+font-size: 18px;
+line-height: 1.5em;
 text-align: left;
 }
 
@@ -504,7 +586,7 @@ width: 95%;
 margin: 0 auto;
 font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
 font-weight: 500;
-font-size: 16px;
+font-size: 14px;
 line-height: 1.5em;
 padding: 0 0 10px;
 }
@@ -536,7 +618,7 @@ line-height: 1.5em;
 	line-height: 1.5;
 	text-align: left;
 	margin-top: 20px;
-	margin-left: 10%;
+	margin-left: 23%;
 	margin-bottom: 30px;
 }
 	
@@ -546,7 +628,11 @@ line-height: 1.5em;
 	margin: 10px;
 	}
  
-
+#list {
+	margin: 0 auto;
+	width: 70%;
+	}	
+	
  
 .bnr-container {
 		width: 80%;
@@ -562,15 +648,22 @@ line-height: 1.5em;
 		margin: 0px 20px 20px 0;
 		border: 1px solid #ccc;
 	}
-
+	
+	
+	
 	.rental {
 		color: #000;
 	}
 
 .footer{
 	margin: 20px;
-	font-size: 12px;
-	line-height: 1.4;
+	padding: 20px;
+	font-size: 13px;
+	line-height: 1.6;
+	color: #920783;
 }
+	
+ 
+		
 
 } 
